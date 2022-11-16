@@ -15,7 +15,7 @@ export class FoodService {
       {
         id: 1,
         price: 10,
-        name: 'Burger 1',
+        name: 'CheeseBurger',
         favorite: false,
         star: 4.5,
         tags: ['FastFood', 'Burger', 'Lunch'],
@@ -27,7 +27,7 @@ export class FoodService {
       {
         id: 2,
         price: 10,
-        name: 'Burger 2',
+        name: 'Hamburger',
         favorite: true,
         star: 5,
         tags: ['FastFood', 'Burger', 'Lunch'],
@@ -39,7 +39,7 @@ export class FoodService {
       {
         id: 3,
         price: 10,
-        name: 'Burger 3',
+        name: 'Burger Salad',
         favorite: false,
         star: 3.5,
         tags: ['FastFood', 'Burger', 'Lunch'],
@@ -52,7 +52,7 @@ export class FoodService {
       {
         id: 4,
         price: 10,
-        name: 'Burger 4',
+        name: 'Patatoes ',
         favorite: false,
         star: 2.5,
         tags: ['FastFood', 'Burger', 'Lunch'],
@@ -64,7 +64,7 @@ export class FoodService {
       {
         id: 5,
         price: 10,
-        name: 'Pizza 1 ',
+        name: 'Vegetarian Pizza   ',
         favorite: false,
         star: 4.5,
         tags: ['FastFood', 'Pizza', 'Lunch'],
@@ -76,7 +76,7 @@ export class FoodService {
       {
         id: 6,
         price: 10,
-        name: 'Pizza 2',
+        name: 'Pizza ',
         favorite: false,
         star: 4.5,
         tags: ['FastFood', 'Pizza', 'Lunch'],
@@ -88,7 +88,7 @@ export class FoodService {
       {
         id: 7,
         price: 10,
-        name: 'Pizza 3',
+        name: 'Salami Pizza ',
         favorite: false,
         star: 4.5,
         tags: ['FastFood', 'Pizza', 'Lunch'],
