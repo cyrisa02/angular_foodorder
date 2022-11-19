@@ -1,4 +1,7 @@
-<div class="container">
+<app-not-found [visible]="!food" [notFoundMessage]="'Product not Found!'" [resetLinkText]=" 'Go to Homepage! '"></app-not-found>
+
+
+<div *ngIf="food" class="container">
 	<img [src]="food.imageUrl" [alt]="food.name">
 
 	<div class="details">
@@ -7,10 +10,7 @@
 				{{food.name}}
 			</span>
 			<span class="favorite {{ food.favorite?'':'not'}}">
-
-				♥
-
-			</span>
+				♥</span>
 		</div>
 		<div class="star">
 			<star-rating [value]="food.star" [totalstars]="5" checkedcolor="red" uncheckedcolor="black" size="24px" [readonly]="true"></star-rating>
